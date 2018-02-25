@@ -1,10 +1,10 @@
 DROP TABLE IF EXISTS Person;
 CREATE TABLE IF NOT EXISTS Person(
-   PersonID  INTEGER  NOT NULL PRIMARY KEY 
+   PersonID  INTEGER  NOT NULL PRIMARY KEY AUTO_INCREMENT
   ,FirstName VARCHAR(12) NOT NULL
   ,LastName  VARCHAR(13) NOT NULL
   ,BirthYear INTEGER  NOT NULL
-);
+)AUTO_INCREMENT=1001;
 INSERT INTO Person(PersonID,FirstName,LastName,BirthYear) VALUES (1001,'Lila','Kemberly',1935);
 INSERT INTO Person(PersonID,FirstName,LastName,BirthYear) VALUES (1002,'Dorcas','Lyndsay',1972);
 INSERT INTO Person(PersonID,FirstName,LastName,BirthYear) VALUES (1003,'Veronique','Elsie',1912);
