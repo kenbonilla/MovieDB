@@ -1,10 +1,10 @@
 DROP TABLE IF EXISTS Titles;
 CREATE TABLE IF NOT EXISTS Titles(
-   MovieID     INTEGER  NOT NULL PRIMARY KEY 
+   MovieID     INTEGER  NOT NULL PRIMARY KEY AUTO_INCREMENT
   ,Title       VARCHAR(36) NOT NULL
   ,Rating      VARCHAR(4) NOT NULL
   ,ReleaseYear INTEGER  NOT NULL
-);
+)AUTO_INCREMENT=1001;
 INSERT INTO Titles(MovieID,Title,Rating,ReleaseYear) VALUES (1001,'Human Of The Ancestors','G',1969);
 INSERT INTO Titles(MovieID,Title,Rating,ReleaseYear) VALUES (1002,'Horse Of The Great','G',1981);
 INSERT INTO Titles(MovieID,Title,Rating,ReleaseYear) VALUES (1003,'Vultures Of The Lost Ones','G',1957);
