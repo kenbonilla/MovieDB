@@ -1,0 +1,101 @@
+/* Yahoo! CSS Reset */
+body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+br{
+    margin: 10px
+}
+div {
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	padding-left: 15px;
+        padding-right: 15px;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+fieldset, img {
+	border: 0;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+ol, ul {
+	list-style: none;
+}
+caption, th {
+	text-align: left;
+}
+h1, h2, h3, h4, h5, h6 {
+
+}
+q:before, q:after {
+	content: '';
+}
+abbr, acronym {
+	border: 0;
+}
+/* End of Yahoo! CSS Reset */
+
+html {
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 18px/22px Arial, sans-serif;
+	width: 100%;
+	height: 100%;
+	background: #f2f7ff;
+}
+.wrapper {
+	width: 800px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 120px;
+	background: #445570;
+	color: white;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+	padding: 0 0 100px;
+	background: f2f7ff;
+}
+
+
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	width: 800px;
+	margin: -100px auto 0;
+	height: 100px;
+	background: #445570;
+	color: white;
+	position: relative;
+}
+
+#home a:link { color: white; }
+#home a:visited { color: white; }
+#home a:hover { color: white; }
+#home a:active { color: white; }
+
+#mytable tr:nth-child(even) {background: #e5efff}
+#mytable tr:nth-child(odd) {background: #f7fcff}
