@@ -24,6 +24,9 @@ include 'menu.php';
         <div><a href="mrpopular.php">
                 sorts actors by how many movies they're in
             </a></div><br>
+        <div><a href="search_genre.php">
+                search for movies by genre
+            </a></div><br>
             <div><a href=""></a></div> 
             <br>
             Support files:<br>------------------------<br>
