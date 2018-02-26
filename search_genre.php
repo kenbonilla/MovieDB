@@ -52,14 +52,16 @@ include 'menu.php';
                 . "&& g.GenreName LIKE '%$varGenre%'");
       
                 $result = $db->query($sql);
-                
+                echo"<div id='mytable'>";
                 echo "<table>";
-                echo $varGenre . " Movies:". "<br>". "<br>";
+                echo "<tr><td><br><h3>";
+                echo $varGenre . " Movies:". "<br><br></h3></td></tr>";
                 
                 while ($row = mysqli_fetch_assoc($result)) {
-                    echo "<tr><td>" . $row["Title"]. "</td></tr><br>";
+                    echo "<tr><td><br>" . $row["Title"]. "&emsp;&emsp;<br><br></td></tr>";
                 }
                         echo "</table>";
+                        echo"</div>";
         }
             ?>
         </div>
