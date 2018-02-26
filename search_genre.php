@@ -57,7 +57,7 @@ include 'menu.php';
                 echo $varGenre . " Movies:". "<br>". "<br>";
                 
                 while ($row = mysqli_fetch_assoc($result)) {
-                    echo $row["Title"]. "<br>";
+                    echo "<tr><td>" . $row["Title"]. "</td></tr><br>";
                 }
                         echo "</table>";
         }
