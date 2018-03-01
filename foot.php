@@ -6,7 +6,7 @@ echo '    </div>
 
 <footer class="footer">
 	<center> <br>
-        <div>Probably some copyrights or something</div></center>
+        <div>Copyright 2018</div></center>
 </footer><!-- .footer -->
     </body>
 </html>';
