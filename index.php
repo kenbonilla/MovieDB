@@ -15,19 +15,24 @@ include 'menu.php';
                 <br>
                 Example queries:<br>------------------------<br>
 
-        <div><a href="list_the_movies.php">
-                list the movies with rating and genres in UL
-            </a></div><br>
         <div><a href="search_title.php">
-                search for a movie with keywords
+                Search for a movie with keywords.
+            </a></div><br>        
+        <div><a href="search_genre.php">
+                Search for movies by genre
+            </a></div><br>
+        <div><a href="list_the_movies.php">
+                List the movies with rating and genres.
             </a></div><br>
         <div><a href="mrpopular.php">
-                sorts actors by how many movies they're in
+                Sorts actors by how many movies they're in
             </a></div><br>
-        <div><a href="search_genre.php">
-                search for movies by genre
+        <div><a href="multi_talent.php">
+                Search for non-action stars in 10+ other genres.
             </a></div><br>
-            <div><a href=""></a></div> 
+            <div><a href="recommendations.php">
+                Recommends movies in your favorite genre.
+            </a></div><br>
             <br>
             Support files:<br>------------------------<br>
         <div><a href="skeleton.php">PHP Template </a>
