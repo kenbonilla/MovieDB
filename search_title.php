@@ -11,7 +11,7 @@ include 'menu.php';
         <br><br>
         
         <div>
-            <!---  main body here --->
+            <!--  main body here -->
             <form  method="POST">
         Search
         <input type="text" name="name" size="50">
