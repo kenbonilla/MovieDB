@@ -32,9 +32,9 @@
         
         echo "</table>";
         echo"</div>";
-        ////////////////////////////
+        
         // Close connection
-        //$db->close();
+        $db->close();
         ?>
 <?php
         include 'foot.php';
