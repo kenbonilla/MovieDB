@@ -10,9 +10,12 @@ include 'menu.php';
         <br><br>
         
         <div>
-            <!---  main body here --->
+            <!--  main body here -->
+                
             Inside of these brackets you can place your main programming logic.<br>
             You can also make calls to functions and variable declared elsewhere.
+                
+            $db->close();
         </div>
 
 <?php
